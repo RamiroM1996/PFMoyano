@@ -1,0 +1,29 @@
+.testimonial {
+    padding-top: 100px;
+    .col-3 {
+    @include testimonial;
+    h3 {
+        font-weight: 600;
+        color: #555;
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+        margin: 12px 0;
+        color: #777;
+    }
+    img {
+        width: 50px;
+        margin-top: 20px;
+        border-radius: 50%;
+    }
+    &:hover{
+        transform: translateY(-10px);
+    }
+    }
+}
+.fa-solid.fa-gamepad {
+    font-size: 34px;
+    color: #ff523b;
+} 
+

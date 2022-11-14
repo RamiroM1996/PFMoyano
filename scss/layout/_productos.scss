@@ -1,0 +1,43 @@
+.small-container {
+    @extend .small-container;
+  }
+  
+  .row {
+    @extend .row;
+  }
+  
+  .row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+  }
+  
+  select {
+    border: 1px solid #8EC5FC;
+    border-radius: 5px;
+    padding: 5px;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .page-btn {
+    margin: 0 auto 80px;
+  
+    span {
+      display: inline-block;
+      border: 1px solid #8EC5FC;
+      margin-left: 10px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+      border-radius: 5px;
+  
+      &:hover {
+        background: #8EC5FC;
+        color: #fff;
+      }
+    }
+  }

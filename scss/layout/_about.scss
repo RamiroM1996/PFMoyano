@@ -1,0 +1,120 @@
+.about {
+    background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  
+    .main img {
+      width: 580px;
+      max-width: 100%;
+      height: auto;
+      padding: 0 10px;
+    }
+  }
+  
+  .all-text {
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  .main {
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .all-text {
+    h4 {
+      font-size: 18px;
+      color: #777777;
+      letter-spacing: 1px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  
+    h1 {
+      font-size: 65px;
+      color: #111111;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 16px;
+      color: #777777;
+      line-height: 30px;
+      margin-bottom: 35px;
+    }
+  }
+
+  .btn-2 {
+    display: inline-block;
+    background: #6e2802;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 10px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+  
+    &:hover {
+      background: #F29325;
+    }
+  }
+  
+  /* ----------------------------------------Efecto(gamer-zone)---------------------------------------*/
+  
+  .effect-1 li a {
+    position: relative;
+    display: block;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(2, 2, 2, 0.432);
+    font-size: 3rem;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 1.2em;
+  
+    &:hover {
+      color: #fff;
+      -webkit-text-stroke: 1px #000;
+      transition: 0.5s;
+    }
+  
+    &:before, &:after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.5s;
+    }
+  
+    &:hover {
+      &:before {
+        color: #f00;
+        z-index: 1;
+        -webkit-text-stroke: 1px #000;
+        transform: translate(10px, -10px);
+      }
+  
+      &:after {
+        color: #0ff;
+        z-index: 2;
+        -webkit-text-stroke: 1px #000;
+        transform: translate(20px, -20px);
+      }
+    }
+  } 
+
+  .btn {
+    display: inline-block;
+    background: #D94F04;             
+    color: #fff;                  
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    &:hover {
+        background: #F29325;
+    }
+} 

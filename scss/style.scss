@@ -1,0 +1,26 @@
+@import "./base/reset";
+@import "./base/general";
+@import "./base/typo"; 
+
+@import "./components/bootstrap";
+
+@import "./utilities/variables";
+@import "./utilities/mixins"; 
+
+@import "./layout/header";
+@import "./layout/categorias-index";
+@import "./layout/productos-index";
+@import "./layout/producto-destacado";
+@import "./layout/testimonio";
+@import "./layout/marcas";
+@import "./layout/footer";
+@import "./layout/about";
+@import "./layout/account";
+@import "./layout/productos";
+@import "./layout/media1440";
+@import "./layout/media1080";
+@import "./layout/media800";
+@import "./layout/media768";
+@import "./layout/media600";
+
+@import "./utilities/variables";
